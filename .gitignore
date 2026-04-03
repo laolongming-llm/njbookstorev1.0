@@ -1,0 +1,80 @@
+# ------------------------------
+# Dependencies
+# ------------------------------
+node_modules/
+**/node_modules/
+
+# ------------------------------
+# Build outputs / caches
+# ------------------------------
+dist/
+build/
+coverage/
+.nyc_output/
+**/dist/
+**/build/
+**/.vite/
+**/.cache/
+.parcel-cache/
+*.tsbuildinfo
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# ------------------------------
+# Environment files
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# Logs / runtime files
+# ------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.pid.lock
+*.seed
+
+# ------------------------------
+# Temp files
+# ------------------------------
+tmp/
+temp/
+.tmp/
+.tmp*/
+*.tmp
+
+# ------------------------------
+# Editor / IDE
+# ------------------------------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.userossc
+*.swp
+*.swo
+*~
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+# Local automation artifacts
+# ------------------------------
+.playwright/
+.playwright-cli/
+output/playwright/
+.localapp/
+.npm-cache/
